@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #F5E8D0;
+    padding: 10px 30px;
+    position: sticky;
+    z-index: 100;
+    border-bottom-color: #ffffff;
+}
+
+.nav-kiri {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-kanan {
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #000000;
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+    background-color: #045500;
+    padding: 40px 10%;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+.Home-kiri {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #F5E8D0;
+}
+
+.Home-kiri p {
+    color: #F5E8D0;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.Home-kanan {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Home a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F5EDE3;
+    background-color: #1C1410;
+    padding: 10px 20px;
+    width: fit-content;
+    align-self: flex-start;
+    border-radius: 10px;
+
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 40px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #F5EDE3;
+}
+
+.About div a {
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
